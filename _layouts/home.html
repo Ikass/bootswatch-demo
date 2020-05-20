@@ -13,11 +13,13 @@ layout: page
     <div class="row">
       <div class="col-md-7">
         {{ content }}
-        {% include hero.html %}
-        {% include features.html %}
       </div>
       <div class="col-md-1"></div>
       <div class="col-md-4">{% include sidebar.html %}</div>
+    </div>
+    <div class="row">
+        {% include hero.html %}
+        {% include features.html %}
     </div>
     {% include footer.html %}
   </div>
